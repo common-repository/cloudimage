@@ -1,0 +1,300 @@
+# Cloudimage
+msgid ""
+msgstr ""
+"Project-Id-Version: Cloudimage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 21:34+0000\n"
+"PO-Revision-Date: 2022-06-21 18:44+0700\n"
+"Last-Translator: \n"
+"Language-Team: en_US <LL@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "welcome"
+msgstr "Welcome to the Cloudimage WordPress Plugin"
+
+msgid "cloudimage"
+msgstr "Cloudimage"
+
+msgid "general"
+msgstr "General"
+
+msgid "advanced_settings_short"
+msgstr "Advanced"
+
+msgid "advanced_settings_long"
+msgstr "Advanced settings - Cloudimage WordPress Plugin"
+
+msgid "fill_cloudimage_domain_prompt"
+msgstr ""
+"<div class=\"%1$s\"><p>Cloudimage is almost ready. To get started, please "
+"fill your cloudimage domain : <a href=\"%2$s\">here</a></p></div>"
+
+msgid "localhost_warning"
+msgstr ""
+"<div class=\"%1$s\"><p>Cloudimage has been disable because your are running "
+"on localhost. Cloudimage needs accessible URL to work</p></div>"
+
+msgid "v7_check_processing"
+msgstr ""
+"The v7 checking process is currently ongoing. Please try not to press 'Save' "
+"until this notice disappears"
+
+# Settings
+msgid "intro"
+msgstr ""
+"Cloudimage will resize, compress and optimise your Wordpress images before "
+"delivering responsive images lightning fast over Content Delivery Networks "
+"all around the World. Simply add your Cloudimage token below and the plugin "
+"will do the magic automatically."
+
+msgid "sign_up"
+msgstr ""
+"To start using Cloudimage you will need to sign up for a Cloudimage account "
+"and obtain a Cloudimage token. Sign up is free and takes only few seconds. "
+
+msgid "get_token"
+msgstr "Get your Cloudimage token"
+
+msgid "enter_token"
+msgstr "After signing up, please enter your Cloudimage token below:"
+
+msgid "thank_you"
+msgstr ""
+"Thank you for connecting your Cloudimage account, you have successfully set "
+"up Cloudimage. If you need any help or have any concerns please drop us a "
+"message at "
+
+msgid "configuration"
+msgstr "Configuration"
+
+msgid "token_domain_label"
+msgstr "Cloudimage token or custom domain: "
+
+msgid "token_domain_tooltip"
+msgstr ""
+"Cloudimage token to link your account and be able to process optimizations "
+"according to your settings. Can be found in your Cloudimage admin panel. "
+"(CNAME)"
+
+msgid "enter_token_prompt"
+msgstr "Enter token: "
+
+msgid "token_domain_desc"
+msgstr "for example azbxuwxXXX or img.acme.com"
+
+msgid "about_cloudimage"
+msgstr ""
+"By default, the plugin will resize all images and deliver them over the "
+"Cloudimage CDN. Your Theme's Wordpress native support for <i>srcset</i> will "
+"continue to be used for delivering responsive images.<br><br>Cloudimage "
+"offers a powerful alternative for enabling responsive images using the <a "
+"href=\"https://scaleflex.github.io/js-cloudimage-responsive/\" target="
+"\"_blank\">Cloudimage Responsive Images JS plugin</a> below:"
+
+msgid "js_mode"
+msgstr "Javascript mode (Please check all options in Advance settings)"
+
+msgid "js_mode_tooltip"
+msgstr ""
+"JavaScript Responsive Plugin will process additional optimizations in the "
+"following order: make images responsive, add lazy-loading, and finally add "
+"progressive loading effect."
+
+msgid "remove_v7"
+msgstr "Version-less URL format (remove \"v7\" in URL for recent tokens)"
+
+msgid "remove_v7_tooltip"
+msgstr ""
+"Switch ON for tokens created after 01.10.2021. OFF for tokens created "
+"before. This option will be automatically switched at save, as relevant. You "
+"will be asked to confirm the setup in case the automated setting process "
+"fails (eg. network issue at the time of test)."
+
+msgid "use_if_logged_in_label"
+msgstr "Use when logged in (Recommended)"
+
+msgid "manual_switch"
+msgstr ""
+"When ON, the Cloudimage processing and CDN delivery will be activated at all "
+"times, while when OFF the image delivery will be without acceleration for "
+"any user logged in the Wordpress admin (including in other tabs), and as "
+"such will avoid using CDN bandwidth allowance during tests."
+
+msgid "cache_suggestion"
+msgstr ""
+"We recommend checking all pages, after turning on Cloudimage JavaScript "
+"Plugin, especially on JavaScript-heavy themes. Cloudimage plugin filters all "
+"the HTML content on your website. For that reason, it is a good idea to use "
+"a caching plugin for the changes to be cached."
+
+msgid "incognito_suggestion"
+msgstr ""
+"Please check your website in Incognito mode of the browser. We disabled "
+"image optimization when the current user is logged to WP-admin to save CDN "
+"traffic."
+
+msgid "save"
+msgstr "Save all changes"
+
+msgid "open_advanced"
+msgstr "Open Advanced settings"
+
+msgid "compat_note"
+msgstr ""
+"Notes about compatibility: The current version of the plugin optimizes all "
+"images included in the final HTML, generated from every theme or plugin. It "
+"will not optimize images in the external CSS files (background-image "
+"properties for example)."
+
+msgid "all_options"
+msgstr "To your Cloudimage administration panel for all configuration options:"
+
+msgid "admin"
+msgstr "Cloudimage Admin "
+
+# Advanced
+msgid "both_mode_switch_label"
+msgstr "Disable image downsize filter"
+
+msgid "both_mode_switch_tooltip"
+msgstr ""
+"Filter to scale an image to fit a particular size. OFF for enabling the "
+"filter, ON for disabling the filter."
+
+msgid "srcset_widths_label"
+msgstr "Srcset widths (px)"
+
+msgid "srcset_widths_tooltip"
+msgstr ""
+"The widths in pixels that would be generated for srcset tag if srcset adding "
+"option is enabled."
+
+msgid "srcset_widths_desc"
+msgstr "Separated by comma (,)"
+
+msgid "srcset_widths_placeholder"
+msgstr "default: 320,576,940,1080"
+
+msgid "replaceable_text_label"
+msgstr "Replaceable text"
+
+msgid "replaceable_text_tooltip"
+msgstr ""
+"The text you want to replace it with another value while adding the domain "
+"prefix."
+
+msgid "replaceable_text_desc"
+msgstr "ex: https://example.com/wp-content/images-uploaded"
+
+msgid "replaceable_text_placeholder"
+msgstr "example: https://example.com/wp-content/images-uploaded"
+
+msgid "replacement_text_label"
+msgstr "Replacement text"
+
+msgid "replacement_text_tooltip"
+msgstr "The text value that would be replaced with the replaceable text."
+
+msgid "replacement_text_desc"
+msgstr "ex: __uploaded__"
+
+msgid "replacement_text_placeholder"
+msgstr "example: __uploaded__"
+
+msgid "enable_srcset_label"
+msgstr "Enable srcset adding"
+
+msgid "enable_srcset_tooltip"
+msgstr "Adding srcset for img tag. OFF for disabling, ON for enabling."
+
+msgid "skip_classes_label"
+msgstr "Skip classes"
+
+msgid "skip_classes_tooltip"
+msgstr "HTML tags with the specified classes would be skipped"
+
+msgid "skip_classes_desc"
+msgstr "Separated by comma (,)"
+
+msgid "skip_classes_placeholder"
+msgstr "example: class,other_class,example-class"
+
+msgid "skip_files_label"
+msgstr "Skip files"
+
+msgid "skip_files_tooltip"
+msgstr "Files with these extensions would be skipped"
+
+msgid "skip_files_desc"
+msgstr "Without dot (.) and separated by comma (,)"
+
+msgid "skip_files_placeholder"
+msgstr "example: ico,jpg,png"
+
+msgid "content_filter_method_label"
+msgstr "Use WordPress filter method"
+
+msgid "content_filter_method_tooltip"
+msgstr ""
+"The way of filtering page's content. OFF for using 'ob_buffer' PHP function, "
+"ON for using 'the_content' filter from wordPress."
+
+msgid "javascript_libraries_host_label"
+msgstr "Local JavaScript libraries"
+
+msgid "javascript_libraries_host_tooltip"
+msgstr ""
+"The host where libraries files would be imported from. OFF for CDN's files, "
+"ON for plugin's local files."
+
+msgid "ignore_node_img_size_label"
+msgstr "Ignore image node size"
+
+msgid "ignore_node_img_size_tooltip"
+msgstr "OFF for caring, ON for ignoring."
+
+msgid "save_node_img_ratio_label"
+msgstr "Save image node ratio "
+
+msgid "save_node_img_ratio_tooltip"
+msgstr "OFF for skipping, ON for saving."
+
+msgid "ignore_style_img_size_label"
+msgstr "Ignore style image size"
+
+msgid "ignore_style_img_size_tooltip"
+msgstr "OFF for caring, ON for ignoring."
+
+msgid "destroy_node_img_size_label"
+msgstr "Destroy node image size"
+
+msgid "destroy_node_img_size_tooltip"
+msgstr "OFF for skipping, ON for destorying. "
+
+msgid "detect_image_node_css_label"
+msgstr "Detect image node css"
+
+msgid "detect_image_node_css_tooltip"
+msgstr "OFF for skipping, ON for detecting. "
+
+msgid "process_only_width_label"
+msgstr "Process only width"
+
+msgid "process_only_width_tooltip"
+msgstr "OFF for skipping, ON for processing. "
+
+msgid "disable_settimeout_checks_label"
+msgstr "Disable setTimeout checks"
+
+msgid "disable_settimeout_checks_tooltip"
+msgstr ""
+"Used to process dynamically loaded images. OFF for enabling, ON for "
+"disabling. "
+
+msgid "advanced_settings"
+msgstr "Advanced settings"
